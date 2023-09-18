@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    /* background-repeat: no-repeat; */
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    padding: 20px;
+    background-color: hsl(180, 15%, 95%, 55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 10px; 
+}
+
+.info {
+    display: flex;
+    padding: 30px;
+    
+    
+ 
+}
+
+
+
+.list {
+    list-style: none;
+}
+
+.list__titulo {
+    text-align: start;
+}
+
+.button {
+    margin-top: 10px;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 600ms ease,
+                transfor 600ms ease,
+                box-shadow 600ms ease;
+
+}
+
+.button:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 0.8em;
+}
